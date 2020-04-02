@@ -1,0 +1,57 @@
+<form action="logcode.php" method="post">
+<center>
+<h1>Login</h1>
+Who You Are
+<select name="who">
+<option value="">--Select Option--</option>
+<option>Doctor</option>
+<option>Patient</option>
+</select>
+<br/>
+Email
+<input type="email" name="email"/>
+<br/>
+Password
+<input type="password" name="password"/>
+<br/>
+<input type="submit" class="btn btn-default" value="Login" style="margin-left:100px;"/>
+</form>
+<br/>
+<input type="checkbox"/><span style="font-size:15px;margin-right:230px;">Remember Me</span>
+<a href="#"><span style="font-size:15px;margin-left:230px;">Forgot Password?<span></a>
+</center>
+
+
+<form action="logcode.php" method="post">
+<h1>Login</h1>
+<br/>
+<h4>Who You Are</h4>
+<select name="who" class="form-control" style="width:270px;">
+<option value="">--Select Option--</option>
+<option>Doctor</option>
+<option>Patient</option>
+</select>
+<h4>Email</h4>
+<input type="email" name="email" class="form-control" placeholder="Email" style="width:270px;"/>
+<h4>Password</h4>
+<input type="password" name="password" class="form-control" placeholder="Password" style="width:270px;"/>
+<br/>
+<input type="checkbox"/>&nbsp;<span style="font-size:15px;margin-right:0px;">Remember Me</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#"><span style="font-size:15px;margin-left:00px;">Forgot Password?<span></a>
+<br/>
+<br/>
+<input type="submit" class="btn btn-default" value="Login"/>
+</form>
+
+
+		<li class="active"><a href="pprofile.php" style="color:grey;">HOME<span class="sr-only">(current)</span></a></li>
+        <li><a href="pbook.php" style="color:grey;">BOOK APPOINTMENT</a></li>
+        <li><a href="pmyappointment.php" style="color:grey;">MY APPOINTMENT</a></li>
+        <li><a href="pupdate.php" style="color:grey;">UPDATE PROFILE</a></li>
+        <li><a href="pchange.php" style="color:grey;">CHANGE PASSWORD</a></li>
+        <li><a href="pfeedback.php" style="color:grey;">FEEDBACK</a></li>
+        <li><a href="#" style="color:grey;">DISCUSSION BOARD</a></li>
+		
+		
+
